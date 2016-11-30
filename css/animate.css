@@ -1,0 +1,37 @@
+/*小屏时菜单的动画*/
+    @keyframes menusmall{
+        0%{
+            opacity:0;
+        }
+        100%{
+            opacity:1;
+        }
+    }
+    @keyframes menusmall2{
+        0%{
+            opacity:1;
+        }
+        100%{
+            opacity:0;
+        }
+    }
+/*云的动画*/
+    @keyframes cloud {
+       0%{transform:translate(0,0);}
+       100%{transform:translate(-50%,0);}
+    }
+/*纸飞机*/
+    @keyframes flight {
+        0%{transform:translate(0,10px);}
+        100%{transform:translate(0,-10px);}
+    }
+/*船*/
+    @keyframes chuan {
+        0%{transform:translate(-40px,0);}
+        100%{transform:translate(0,0);}
+    }
+/*旋转的文字*/
+    @keyframes rotate {
+        0%{transform:rotateY(0deg);}
+        100%{transform:rotateY(360deg);}
+    }

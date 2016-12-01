@@ -50,9 +50,9 @@ $(function(){
             });
         }
     });
-    //$("#fullpage")[0].mousedown(function(e){e.preventDefault();})
-    //$("#fullpage")[0].mousemove(function(e){e.preventDefault();})
-    //$("#fullpage")[0].mouseup(function(e){e.preventDefault();})
+    $("#fullpage").mousedown(function(e){e.preventDefault();})
+    $("#fullpage").mousemove(function(e){e.preventDefault();})
+    $("#fullpage").mouseup(function(e){e.preventDefault();})
 //小屏菜单
     var flag2=true;
     $(".menu").click(function(){
